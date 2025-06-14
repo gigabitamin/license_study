@@ -1,11 +1,4 @@
 
-# https://kr.object.gov-ncloudstorage.com/dataq/dataq-10th/%5BK-DATA%5D%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D%EA%B8%B0%EC%82%AC%20%EC%8B%A4%EA%B8%B0%20%EC%B2%B4%ED%97%98%ED%99%98%EA%B2%BD%20%EA%B0%80%EC%9D%B4%EB%93%9C_250605.pdf
-
-# (체험) 제2유형
-# 유형
-# 프로그래밍
-# 제공된 학습용 데이터(customer_train.csv)는 백화점 고객의 1년간 상품 구매 기록이다. 학습용 데이터를 활용하여 총구매액을 예측하는 모델을 개발하고, 이 중 가장 우수한 모델을 평가용 데이터(customer_test.csv)에 적용하여 총구매액을 예측하시오. 예측 결과는 아래의 【제출 형식】을 준수하여, CSV 파일로 생성하는 코드를 제출하시오.
-
 #  * 예측 결과는 RMSE(Root Mean Squared Error) 평가지표에 따라 평가함
 
 # 【제출 형식】
