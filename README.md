@@ -4,6 +4,10 @@
 
 ## 250619 
 빅데이터분석기사 실기 대비 : 데이터구름 예제 복습 : 유형1~유형3, 회귀 유의한 or 유의하지 않은 변수 선택에 따른 상수항 추가/제외  
+유의성을 가리기 위한 p-value 를 sklearn.ensemble 의 RandomForestRegressor 에서는 제공하지 않음  
+staticmodels.api 사용 sm.add_constant(), sm.Logit()  
+오즈 = p / 1-p, beta 값이 x배 늘어나면 오즈비는 e**x 만큼 늘어남, np.exp() 사용 
+이진분류가 아닐 경우 loigt 으로는 불가, 다중분류 OLS 사용   
 
 ## 250618  
 빅데이터분석기사 실기 대비 : 데이터구름 예제 복습 : 유형1~유형3, 다중분류 데이터 불균형에 따른 stratify 사용여부 판단   
