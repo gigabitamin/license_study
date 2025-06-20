@@ -2,6 +2,12 @@
   
 ============================  
 
+## 250621  
+- 빅데이터 실기 모의 다시 - 합동분산 추정량, ttest_ind, f-검정, scipy.stat 이용 -> help, dir  
+- train/test 컬럼이 동일하지 않을 경우 → 열 맞추기  
+- x_train, x_test = x_train.align(x_test, join='left', axis=1, fill_value=0)  
+- or  train 과 test 를 통합한 total 생성 후 한번에 get_dummies -> 다시 분리  
+
 ## 250620  
 - 빅데이터 실기 기출변형 3~6회  
 - 등분산성 levene(), 정규성 shapiro(), 독립성 검정 chi2_contingency(), 적합도 검정 chisqure()  
