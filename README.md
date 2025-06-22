@@ -2,6 +2,11 @@
   
 ============================  
 
+# 250622  
+- AICE, 정처기 실기 기출 정리  
+- JAVA 캡슐화, 추상화, 오버라이딩, 다형성, 상속 /  C++ Pointer, 예외처리, 메모리 자료구조, STACK, HEAP 영역  
+- SCRATCH ADUINO mega 2356 블록코딩 : 사이렌 모델 - Neo, LCD, OLED, LED Matrix, RGB Led  
+
 ## 250621  
 - 빅데이터 실기 모의 다시 - 합동분산 추정량, ttest_ind, f-검정, scipy.stat 이용 -> help, dir  
 - train/test 컬럼이 동일하지 않을 경우 → 열 맞추기  
