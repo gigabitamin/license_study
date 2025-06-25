@@ -2,6 +2,16 @@
   
 ============================  
 
+# 250625  
+- AICE TEST 샘플문항 풀이 연습 : 전처리, ML, DL
+- tensorflow sequantial() add.layers, Dropout, Dense
+- input_shape = (X_train.shape[1]) -> 훈련 데이터의 컬럼 수와 맞춰 줌
+- 예측 시(predict) y_train 과 y_pred 의 차원이 다를 경우 reshape 혹은 flatten() 으로 맞춰줌, y_train.reshape((-1, 1)), y_pred.flatten()
+
+# 250624  
+- mblock 스프라이트 아두이노 연동 pose ML 모델  
+- 자동차 과속/주차 경고음, 아날로그 슬라이드 센서(0~1023)-OLED 연동, SONAR(0~1023) 센서와 FND 연동  
+
 # 250622  
 - AICE, 정처기 실기 기출 정리  
 - JAVA 캡슐화, 추상화, 오버라이딩, 다형성, 상속 /  C++ Pointer, 예외처리, 메모리 자료구조, STACK, HEAP 영역  
