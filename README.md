@@ -2,6 +2,11 @@
   
 ============================  
 
+# 250626  
+- ML XGBoost LightGBM -> RF 에 비해 나은 점과 적용하기 적절한 샘플 구분  
+- DL callbacks 에서 Modelcheckpoint 설정 시 load_model -> best_model 로 predict 후 성능 평가 진행  
+- hitory.history 에서 keys(), items() 로 loss 와 val_loss 값 확인 -> 하나의 차트에서 양 쪽 비교  
+
 # 250625  
 - AICE TEST 샘플문항 풀이 연습 : 전처리, ML, DL
 - tensorflow sequantial() add.layers, Dropout, Dense
