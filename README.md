@@ -2,6 +2,18 @@
   
 ============================  
 
+# 250628 
+- AICE 정리, sns.load_dataset() 이용, sns.get_dataset_names() 이용해서 필요한 데이터 로딩(분류:'titanic'(생존자 분류) / 회귀:'diamonds'(가격 예측))  
+- df.describe() 로 median 과 mean 이 차이나는 데이터 열 확인 (이상치 탐색, 데이터 불균형 탐색)  
+- boxplot(), jointplot() 등으로 이상치 분포 확인 -> 제거 or 대체  
+- df.corr(numeric_only=True) 상관관계 확인시 수치형 열만 탐색, or .select_types(include='number')  
+
+## 250627  
+- AICE 샘플 테스트 -> 빅분기 실기용 템플릿 활용  
+- aduino - mblock 연동 시 milli() 함수로 비동기 구현  
+- aduino pwm 4번 5번 회전 모터 : 전류(AC, DC) 입력에 따른 회전 방향, 터치패드 on/off 에 따른 회전 방향, OLED에 오실로스코프 형태 구현    
+- aduino 허스키 렌즈 : 카메라에 포착된 학습 feature 갯수 FND 에 출력  
+
 # 250626  
 - ML XGBoost LightGBM -> RF 에 비해 나은 점과 적용하기 적절한 샘플 구분  
 - DL callbacks 에서 Modelcheckpoint 설정 시 load_model -> best_model 로 predict 후 성능 평가 진행  
