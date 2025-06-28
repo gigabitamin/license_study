@@ -8,6 +8,14 @@
 - boxplot(), jointplot() 등으로 이상치 분포 확인 -> 제거 or 대체  
 - df.corr(numeric_only=True) 상관관계 확인시 수치형 열만 탐색, or .select_types(include='number')  
 
+- loss: 1342423.1250 -> loss 가 너무 크게 나올 경우, 타겟인 y도 스케일링 해준 뒤 다시 테스트
+- 타겟인 가격을 스케일링 할 경우 predict 후에는 스케일링 된 예측 가격을 inverse_transform 으로 다시 원래 가격으로 변환
+
+- valid 데이터로 predict 진행시 주의 점: X_valid는 모델이 학습할 때 직접 사용한 데이터는 아님 (학습은 X_train, y_train에서만)
+- X_valid는 모델 훈련 도중 성능을 측정하기 위해 사용된 검증(validation)용 데이터이므로 오버피팅은 아니고, predict() 해서 실제 예측값과 비교하는 건 전혀 문제 없음
+- 그러나 X_valid는 하이퍼파라미터 튜닝이나 조기 종료(early stopping)에 사용될 경우, 모델이 간접적으로 영향을 받았을 수 있으므로, 완전히 새로운 데이터(test set 또는 실사용 데이터)보다는 조금 더 낙관적인 결과가 나올 수 있으니 주의 필요
+- 필요 시 원본 데이터인 df 를 X, y 로 분리한 후 train_test_split을 2번 중첩사용해서 train, valid, test 용으로 나눌 필요
+
 ## 250627  
 - AICE 샘플 테스트 -> 빅분기 실기용 템플릿 활용  
 - aduino - mblock 연동 시 milli() 함수로 비동기 구현  
